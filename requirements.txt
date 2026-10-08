@@ -1,0 +1,9 @@
+torch
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+fastapi[standard]
+uvicorn
+requests

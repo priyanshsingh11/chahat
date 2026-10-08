@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Datasets (large, download separately)
+data/
+
+# Large generated artifacts
+artifacts/dataset.pt
+
+# Personal captured traffic
+personal_traffic.csv
+*.pcap
+*.pcapng
+
+# Secrets
+.env

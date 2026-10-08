@@ -1,0 +1,35 @@
+{
+  "dataset": "CSE-CIC-IDS2018",
+  "files": [
+    "data/Thursday-22-02-2018_WebAttacks.csv"
+  ],
+  "flows": 143581,
+  "accuracy": 0.9970539277481004,
+  "macro_precision": 0.49873885172798216,
+  "macro_recall": 0.499787039429126,
+  "macro_f1": 0.4992623954188304,
+  "attack_vs_benign": {
+    "attack_recall (detection rate)": 0.0,
+    "attack_precision": 0.0,
+    "false_positive_rate": 0.00042592114174795246,
+    "attacks_detected": 0,
+    "attacks_missed": 362,
+    "false_alarms": 61,
+    "benign_correct": 143158
+  },
+  "zero_filled_features": [],
+  "confusion_matrix": [
+    [
+      143158,
+      61
+    ],
+    [
+      362,
+      0
+    ]
+  ],
+  "classes": [
+    "BENIGN",
+    "Web Attack"
+  ]
+}
