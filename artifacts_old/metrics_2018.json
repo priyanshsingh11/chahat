@@ -1,0 +1,19 @@
+{
+  "dataset": "CSE-CIC-IDS2018",
+  "rows_evaluated": 144466,
+  "accuracy": 0.9970719754128999,
+  "macro_precision": 0.4987465807970638,
+  "macro_recall": 0.4997883473047244,
+  "macro_f1": 0.49926692061599465,
+  "confusion_matrix": [
+    [
+      144043,
+      61
+    ],
+    [
+      362,
+      0
+    ]
+  ],
+  "latency_ms_per_flow": 0.01066610153762475
+}
